@@ -63,7 +63,14 @@ namespace CongestionCharge
 
                 if (vehicle == "a" || vehicle == "c")
                 {
-                    Console.WriteLine("You choose car or van");
+                    if(vehicle == "a")
+                    {
+                        Console.WriteLine("You choose car");
+                    }
+                    else
+                    {
+                        Console.WriteLine("You choose van");
+                    }                    
                     entryTime = new DateTime(enYear, enMonth, enDay, enHour, enMinutes, 0);
                     exitTime = new DateTime(exYear, exMonth, exDay, exHour, exMinutes, 0);
                     DateTime midnightAfterEntry = new DateTime(entryTime.Year, entryTime.Month, entryTime.Day, 23, 59, 59);
@@ -219,12 +226,13 @@ namespace CongestionCharge
                         dayPriceAM = fullChargedDayAM.TotalMinutes * (chargeAM / 60);
                         dayPricePM = fullChargedDayPM.TotalMinutes * (chargePM / 60);
                         priceAM = Math.Round(chargedTimeAM.TotalMinutes * (chargeAM / 60), 1);
-                        pricePM = Math.Round(chargedTimePM.TotalMinutes * (chargePM / 60), 1);
+                        pricePM = Math.Round(chargedTimePM.TotalMinutes * (chargePM / 60), 1, MidpointRounding.ToZero);
                         totalPrice = Math.Round(priceAM + pricePM, 1);
                     }
                     Console.WriteLine($"Charge for {chargedTimeAM.Hours}h {chargedTimeAM.Minutes}m (AM rate):£{String.Format("{0:0.00}", priceAM)}");
                     Console.WriteLine($"Charge for {chargedTimePM.Hours}h {chargedTimePM.Minutes}m (PM rate):£{String.Format("{0:0.00}", pricePM)}");
                     Console.WriteLine($"Total Charge: £{String.Format("{0:0.00}", totalPrice)}");
+                    Console.WriteLine();
                 }
                 else if (vehicle == "b")
 
@@ -279,8 +287,7 @@ namespace CongestionCharge
                     //more than 24h
                     else if (totalTime.Days > 0)
                     {
-                        totalTime = totalTime - freeDays;
-                        Console.WriteLine($"total paid time: {totalTime.ToString()}");
+                        totalTime = totalTime - freeDays;                        
                         PaymentMoto(entryTime, midnightAfterEntry);
                         TimeSpan firstChargedTimeAM = chargedTimeAM;
                         TimeSpan firstChargedTimePM = chargedTimePM;
@@ -362,12 +369,13 @@ namespace CongestionCharge
                         dayPriceAM = fullChargedDayAM.TotalMinutes * (chargeAM / 60);
                         dayPricePM = fullChargedDayPM.TotalMinutes * (charge / 60);
                         priceAM = Math.Round(chargedTimeAM.TotalMinutes * (chargeAM / 60), 1);
-                        pricePM = Math.Round(chargedTimePM.TotalMinutes * (charge / 60), 1);
+                        pricePM = Math.Round(chargedTimePM.TotalMinutes * (charge / 60), 1, MidpointRounding.ToZero);
                         totalPrice = Math.Round(priceAM + pricePM, 1);
                     }
                     Console.WriteLine($"Charge for {chargedTimeAM.Hours}h {chargedTimeAM.Minutes}m (AM rate):£{String.Format("{0:0.00}", priceAM)}");
                     Console.WriteLine($"Charge for {chargedTimePM.Hours}h {chargedTimePM.Minutes}m (PM rate):£{String.Format("{0:0.00}", pricePM)}");
                     Console.WriteLine($"Total Charge: £{String.Format("{0:0.00}", totalPrice)}");
+                    Console.WriteLine();
                 }
                 else
                 {
