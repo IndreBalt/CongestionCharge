@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mokslai 2021\\repos\\CongestionCharge\\CongestionCharge\\CongestionCharge.csproj",
+      "projectUniqueName": "D:\\Mokslai 2021\\GitHubRepos\\CongestionCharge\\CongestionCharge\\CongestionCharge.csproj",
       "projectName": "CongestionCharge",
-      "projectPath": "D:\\Mokslai 2021\\repos\\CongestionCharge\\CongestionCharge\\CongestionCharge.csproj",
+      "projectPath": "D:\\Mokslai 2021\\GitHubRepos\\CongestionCharge\\CongestionCharge\\CongestionCharge.csproj",
       "packagesPath": "C:\\Users\\Indre\\.nuget\\packages\\",
-      "outputPath": "D:\\Mokslai 2021\\repos\\CongestionCharge\\CongestionCharge\\obj\\",
+      "outputPath": "D:\\Mokslai 2021\\GitHubRepos\\CongestionCharge\\CongestionCharge\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Indre\\AppData\\Roaming\\NuGet\\NuGet.Config",
