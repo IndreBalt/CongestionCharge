@@ -19,7 +19,6 @@ D:\Mokslai 2021\GitHubRepos\CongestionCharge\CongestionCharge\bin\Debug\net5.0\C
 D:\Mokslai 2021\GitHubRepos\CongestionCharge\CongestionCharge\bin\Debug\net5.0\CongestionCharge.runtimeconfig.json
 D:\Mokslai 2021\GitHubRepos\CongestionCharge\CongestionCharge\bin\Debug\net5.0\CongestionCharge.runtimeconfig.dev.json
 D:\Mokslai 2021\GitHubRepos\CongestionCharge\CongestionCharge\bin\Debug\net5.0\CongestionCharge.dll
-D:\Mokslai 2021\GitHubRepos\CongestionCharge\CongestionCharge\bin\Debug\net5.0\ref\CongestionCharge.dll
 D:\Mokslai 2021\GitHubRepos\CongestionCharge\CongestionCharge\bin\Debug\net5.0\CongestionCharge.pdb
 D:\Mokslai 2021\GitHubRepos\CongestionCharge\CongestionCharge\obj\Debug\net5.0\CongestionCharge.csproj.AssemblyReference.cache
 D:\Mokslai 2021\GitHubRepos\CongestionCharge\CongestionCharge\obj\Debug\net5.0\CongestionCharge.GeneratedMSBuildEditorConfig.editorconfig
@@ -30,3 +29,4 @@ D:\Mokslai 2021\GitHubRepos\CongestionCharge\CongestionCharge\obj\Debug\net5.0\C
 D:\Mokslai 2021\GitHubRepos\CongestionCharge\CongestionCharge\obj\Debug\net5.0\ref\CongestionCharge.dll
 D:\Mokslai 2021\GitHubRepos\CongestionCharge\CongestionCharge\obj\Debug\net5.0\CongestionCharge.pdb
 D:\Mokslai 2021\GitHubRepos\CongestionCharge\CongestionCharge\obj\Debug\net5.0\CongestionCharge.genruntimeconfig.cache
+D:\Mokslai 2021\GitHubRepos\CongestionCharge\CongestionCharge\obj\Debug\net5.0\refint\CongestionCharge.dll

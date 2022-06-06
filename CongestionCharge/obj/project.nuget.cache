@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vwNF29/+FwMYfSTvgVfH16k/xVlOVUDIB14NcCzMixHHN+LD4ZizWoLHqXJ9poHb+tynLaCoF8YEikf5pw7vTQ==",
+  "dgSpecHash": "cZa6Cma3WeAuoWmvp0YsfgkoFxHMdhn0vIWUBoxGqRAlY5liBf7E449UR+qxYP+iX9jxBVSFvUpA2qYoYhTcCA==",
   "success": true,
   "projectFilePath": "D:\\Mokslai 2021\\GitHubRepos\\CongestionCharge\\CongestionCharge\\CongestionCharge.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Indre\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
